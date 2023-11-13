@@ -1,0 +1,30 @@
+data =
+        {
+            "scoring_info": 
+            {
+                "name": "Space Force Server",
+                "start_time": "DISABLED",
+                "running_time": "DISABLED",
+                "checks_total": 25,
+                "checks_complete": 2
+            },
+            "checks": 
+            {
+                
+            "25": 
+            {
+                "points": 3,
+                "description": "Access check passed."
+            }
+        
+,
+            "31": 
+            {
+                "points": 8,
+                "description": "Forensics 3 complete."
+            }
+        
+
+            }
+        };
+        

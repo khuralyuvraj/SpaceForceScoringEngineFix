@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Scoring Report</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div id="snow">
+        <div class="behind-snow"></div>
+        <div class="actual-snow">
+            <canvas id='canv'></canvas>
+        </div>
+    </div>
+    <div class="name"></div>
+    <div id="info">
+        <div class="left">
+            <div class="info_container">
+                <div class="label">Start Time</div>
+                <div class="start_time"></div>
+            </div>
+            <div class="info_container">
+                <div class="label">Running Time</div>
+                <div class="running_time"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="info_container">
+                <div class="label">Checks</div>
+                <div class="checks_count"></div>
+            </div>
+            <div class="info_container">
+                <div class="label">Points</div>
+                <div class="points"></div>
+            </div>
+        </div>
+    </div>
+    <div id="checks"></div>
+
+    <script src="jquery331.js"></script>
+    <script src="build.js"></script>
+    <script src="data.json"></script>
+</body>
+
+</html>

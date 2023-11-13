@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while true; do
+	cp -r /usr/share/csse-pub/data.json /home/secaudit/Scoring/
+	sleep 5
+done

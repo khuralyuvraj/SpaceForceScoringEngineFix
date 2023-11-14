@@ -5,7 +5,7 @@ Open Firefox and go to `https://download1500.mediafire.com/4bmebz9w73pgALKwk_Txf
 Type the following commands to unzip the file:
 ```
 unzip Scoring.zip
-rm -rf Scoring.zip
+rm Scoring.zip
 ```
 
 Then run the update script with

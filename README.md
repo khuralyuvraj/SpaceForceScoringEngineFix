@@ -15,7 +15,5 @@ sudo Scoring/update &
 And finally, update the Scoring Report desktop shortcut with
 ```
 sudo mousepad Desktop/Scoring\ Report.desktop
-
-#and change the following line:
-'/usr/share/csse-pub/index.html' -> '/home/secaudit/Scoring/index.html'
 ```
+and change the following line: `/usr/share/csse-pub/index.html` -> `/home/secaudit/Scoring/index.html`

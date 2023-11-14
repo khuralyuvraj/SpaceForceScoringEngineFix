@@ -4,6 +4,7 @@ Open Firefox and go to `https://download1500.mediafire.com/4bmebz9w73pgALKwk_Txf
 
 Type the following commands to unzip the file:
 ```
+cd ~
 unzip Scoring.zip
 rm Scoring.zip
 ```

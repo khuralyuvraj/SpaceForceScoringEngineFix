@@ -2,6 +2,8 @@
 
 Open Firefox in the VM and go to [this site](https://download1500.mediafire.com/4bmebz9w73pgALKwk_Txf26npPcItlnAYrGqXh0JT2XqRY0MTrYA6-HQVNFMrbx0S7F53sUAp5msmX2hoDlGEQithyhCaEvPfiKGZC5OSCj-bozvLVxA5-2rQYul_pGnCe9_MK738T4mqwyibEItZ0Pp1aH5_p7xzRZgFT_s9ary/kd25z8fmcgcbsec/Scoring.zip) > `Advanced` > `Accept the risk and continue` > `Download` and then move the Scoring.zip download to your home folder `/home/secaudit/`
 
+Do `sudo ls` before the following to have the sudo password in cache.
+
 Type the following commands to unzip the file:
 ```
 cd ~

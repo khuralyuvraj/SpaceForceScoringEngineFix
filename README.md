@@ -9,15 +9,15 @@ unzip Scoring.zip
 rm Scoring.zip
 ```
 
-Then run the update script with
+Update the Scoring Report desktop shortcut with
+```
+sudo sed -i 's\URL=file:///usr/share/csse-pub/index.html\Exec=firefox /home/secaudit/Scoring/index.html\' /home/secaudit/Desktop/Scoring\ Report.desktop && sudo sed -i 's\Link\Application\' /home/secaudit/Desktop/Scoring\ Report.desktop
+```
+
+And finally, run the update script with
 ```
 chmod +x Scoring/update
 sudo Scoring/update &
-```
-
-And finally, update the Scoring Report desktop shortcut with
-```
-sudo sed -i 's\URL=file:///usr/share/csse-pub/index.html\Exec=firefox /home/secaudit/Scoring/index.html\' /home/secaudit/Desktop/Scoring\ Report.desktop && sudo sed -i 's\Link\Application\' /home/secaudit/Desktop/Scoring\ Report.desktop
 ```
 
 And seperately you should turn on network-manager properly, so copy the following

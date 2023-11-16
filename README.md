@@ -8,11 +8,6 @@ cd ~
 unzip Scoring.zip
 rm Scoring.zip
 ```
-Or if you are tethering to the VM then you can do the following and skip all previous steps:
-```
-cd ~
-git clone https://github.com/khuralyuvraj/SpaceForceScoringEngineFix
-```
 
 Then run the update script with
 ```

@@ -19,3 +19,8 @@ And finally, update the Scoring Report desktop shortcut with
 ```
 sudo sed -i 's\/usr/share/csse-pub/index.html\/home/secaudit/Scoring/index.html\' /home/secaudit/Desktop/Scoring\ Report.desktop
 ```
+
+And seperately you should turn on network-manager properly, so copy the following
+```
+sudo service network-manager start
+```
